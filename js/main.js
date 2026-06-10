@@ -4,8 +4,8 @@
    3. Waitlist form -> Supabase REST insert
 */
 
-const SUPABASE_URL = 'https://YOUR_PROJECT_REF.supabase.co';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://xzzflafruciaqvwfszju.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable__pO9UEnHsaud2ZAX737QYA_cy9JFbWN';
 
 function initNavToggle() {
   const toggle = document.querySelector('.nav-toggle');
