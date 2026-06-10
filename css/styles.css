@@ -864,14 +864,14 @@ a:hover {
 
 .preview__visual {
   position: relative;
-  display: flex;
-  justify-content: center;
+  width: min(100%, 320px);
+  margin-inline: auto;
   padding-block: var(--space-4);
 }
 
 .app-preview {
   display: block;
-  width: min(100%, 320px);
+  width: 100%;
   height: auto;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-card);
@@ -881,7 +881,7 @@ a:hover {
 .app-preview__tag {
   position: absolute;
   top: var(--space-5);
-  right: calc(50% - 170px);
+  right: -10px;
   max-width: 9rem;
   background-color: var(--color-red);
   color: var(--color-white);
@@ -906,11 +906,6 @@ a:hover {
 
   .preview__visual {
     order: -1;
-  }
-
-  .app-preview__tag {
-    right: auto;
-    left: calc(50% + 100px);
   }
 }
 
