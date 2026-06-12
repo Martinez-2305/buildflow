@@ -1,0 +1,11 @@
+# Environment variables / secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Supabase CLI local state
+supabase/.temp/

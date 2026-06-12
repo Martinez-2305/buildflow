@@ -8,7 +8,7 @@ import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
 const WEBHOOK_SECRET = Deno.env.get("WEBHOOK_SECRET");
 const NOTIFY_EMAIL = "contact@martkamdigital.com";
-const FROM_ADDRESS = "BuildFlow Waitlist <onboarding@resend.dev>";
+const FROM_ADDRESS = "BuildFlow Waitlist <waitlist@martkamdigital.com>";
 
 function escapeHtml(value: string): string {
   return value
