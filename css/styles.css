@@ -926,6 +926,10 @@ a:hover {
   }
 }
 
+.why__content h2 {
+  margin-bottom: var(--space-4);
+}
+
 .trust-list {
   display: flex;
   flex-direction: column;
